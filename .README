@@ -1,2 +1,3 @@
 $ yarn create vite aula --templete react-ts
-adasdasdas
+tsc aulateste.ts
+node aulateste.js
