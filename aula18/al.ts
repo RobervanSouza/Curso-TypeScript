@@ -7,7 +7,15 @@
  * Transpilação do arquivo: <Windows> CTRL + SHIFT + B -> tsc: build/watch
  */
 // ==> Exemplo 01 - Uso simples de Tuplas em TypeScript
+let animais: [string, string, number, string, ]
+animais = ['porco', 'galinha', 4, 'pipo']
+//console.log('animais', animais)
+
 // ==> Exemplo 02 - Acessando o valor da Tupla
+
+let animais1: [string, string, number, string];
+animais1 = ["porco", "galinha", 4, "pipo"];
+console.log("animais", animais1[1]);
 // ==> Exemplo 03 - Outra forma de usar Tuplas em TypeScrit (com labels)
 // ==> Exemplo 04 - Usando Tuplas com Spread Operator
 //==> Exemplo 05 - Lista Heterogênea de Tupla:
